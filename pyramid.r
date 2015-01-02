@@ -1,4 +1,4 @@
-# Hi dear jadi; I hope I win :)
+# Hi dear jadi and all other dudes. I hope I win :)
 #To run this codes just copy it in R console! you will see the result
 # Note: you can change this initial values to calculate results for different values ie different populations
 #initialize 
