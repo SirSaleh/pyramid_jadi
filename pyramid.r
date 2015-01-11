@@ -82,5 +82,9 @@ if (member_count < ir_population){
 }
 
 # Show results 
-cat ("*****\nIt lasts",current_month,"months to all ",Population_name,"be in this **cking system and just ",benefs(entered_size_in_month)," People (about",(benefs(entered_size_in_month)/ir_population)*100,"%) are Happy :)\n******");
+cat ("*****\nIt lasts",current_month,"months to all ",Population_name,"be in this **cking system and just ",benefs(entered_size_in_month)," People (about",(benefs(entered_size_in_month)/ir_population)*100,"%) are Happy :)\n\n\n\n\n******");
+x11(1000,800)
+plot (cumsum(entered_size_in_month),type="o",col="#2222dd",xlab=paste(current_month," ماه طول می‌کشد تا تمام",Population_name, "وارد این سیستم شوند! و تنها ",benefs(entered_size_in_month)," نفر (حدود ",(benefs(entered_size_in_month)/ir_population)*100,"درصد) آنها از این سیستم سود برده‌اند!"),ylab="وارد شدگان")
+lines(spline(1:length(entered_size_in_month),entered_size_in_month,n=200),type="l",col="#ff0050")
+text(-10, 10,paste(current_month," ماه طول می‌کشد تا تمام",Population_name, "وارد این سیستم شوند! و تنها ",benefs(entered_size_in_month)," نفر (حدود ",(benefs(entered_size_in_month)/ir_population)*100,"درصد) آنها از این سیستم سود برده‌اند!"),cex = .8)
 #end
