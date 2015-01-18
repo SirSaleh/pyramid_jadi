@@ -1,7 +1,7 @@
 pyramid_jadi
 ============
 
-This repository made for jadi's question in <a href="http://jadi.net">jadi's website</a>.
+This repository made for jadi's question in <a href="http://jadi.net/2014/12/herami-programming/">jadi's website</a>.
 
 Running this codes is very easy! Open Your R and copy it in your R's console.
 Remember that you can change initial values to see results for there.
